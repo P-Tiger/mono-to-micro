@@ -25,6 +25,6 @@ jobs:
 
       - name: Build and Push
         run: |
-          docker build -t udagram-reverseproxy:$GITHUB_SHA -f ./udagram-reverseproxy/dockerfile ./udagram-reverseproxy
+          docker build -t udagram-reverseproxy:$GITHUB_SHA ./udagram-reverseproxy
           docker tag udagram-reverseproxy:$GITHUB_SHA 51702102/udagram-reverseproxy:latest
           docker push 51702102/udagram-reverseproxy:latest
