@@ -28,3 +28,15 @@ jobs:
           docker build -t udagram-reverseproxy:$GITHUB_SHA ./udagram-reverseproxy
           docker tag udagram-reverseproxy:$GITHUB_SHA 51702102/udagram-reverseproxy:latest
           docker push 51702102/udagram-reverseproxy:latest
+
+          docker build -t udagram-api-feed:$GITHUB_SHA ./udagram-api-feed
+          docker tag udagram-api-feed:$GITHUB_SHA 51702102/udagram-api-feed:latest
+          docker push 51702102/udagram-api-feed:latest
+
+          docker build -t udagram-api-user:$GITHUB_SHA ./udagram-api-user
+          docker tag udagram-api-user:$GITHUB_SHA 51702102/udagram-api-user:latest
+          docker push 51702102/udagram-api-user:latest
+
+          docker build -t udagram-frontend:$GITHUB_SHA ./udagram-frontend
+          docker tag udagram-frontend:$GITHUB_SHA 51702102/udagram-frontend:latest
+          docker push 51702102/udagram-frontend:latest
