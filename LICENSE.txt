@@ -19,7 +19,7 @@ Udacity expressly defines the following as falling outside the definition of
     that the Educational Content, or such part thereof, is available at the
     Website free of charge);
 (c) providing training, support, or editorial services that use or reference the
-    Educational Content in exchange for a fee;
+    Educational Contnt in exchange for a fee;
 (d) the sale of advertisements, sponsorships, or promotions placed on the
     Educational Content, or any part thereof, or the sale of advertisements,
     sponsorships, or promotions on any website or blog containing any part of
